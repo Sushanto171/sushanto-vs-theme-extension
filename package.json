@@ -1,0 +1,23 @@
+{
+  "name": "sushanto-dark-theme",
+  "displayName": "Sushanto Dark Theme",
+  "publisher": "sushanto",
+  "description": "Full custom dark theme with background image, command removal, ligatures, and subtle colors.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sushanto Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sushanto-dark-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {}
+}

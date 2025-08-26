@@ -1,0 +1,22 @@
+# Ignore node_modules
+node_modules
+
+# Ignore build outputs
+out
+dist
+*.vsix
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore test files
+test
+*.test.js
+*.spec.js
+
+# Ignore images not needed
+*.png
+*.jpg
+*.jpeg
+*.gif
