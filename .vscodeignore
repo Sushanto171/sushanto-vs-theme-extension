@@ -16,7 +16,7 @@ test
 *.spec.js
 
 # Ignore images not needed
-*.png
 *.jpg
 *.jpeg
 *.gif
+*.png

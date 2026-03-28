@@ -3,13 +3,25 @@
   "displayName": "Sushanto Dark Theme",
   "publisher": "sushanto",
   "description": "Full custom dark theme with background image, command removal, ligatures, and subtle colors.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.90.0"
   },
-  "categories": [
-    "Themes"
-  ],
+  "galleryBanner": {
+    "color": "#10111A",
+    "theme": "dark"
+  },
+  "keywords": ["theme", "dark", "color theme", "sushanto"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sushanto171/sushanto-vs-theme-extension.git"
+  },
+  "homepage": "https://github.com/Sushanto171/sushanto-vs-theme-extension",
+  "bugs": {
+    "url": "https://github.com/Sushanto171/sushanto-vs-theme-extension/issues"
+  },
+  "categories": ["Themes"],
   "contributes": {
     "themes": [
       {
@@ -18,6 +30,5 @@
         "path": "./themes/sushanto-dark-color-theme.json"
       }
     ]
-  },
-  "dependencies": {}
+  }
 }

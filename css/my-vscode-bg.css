@@ -1,26 +1,7 @@
-.monaco-workbench,
-.welcomePage {
-  background-color: #10111a !important;
-}
-
 .welcomePage,
 .monaco-workbench .part.editor > .content .editor-background {
   background-image: url("../image/my-vs-background.png") !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
   background-size: contain !important;
-}
-
-.welcomePage .welcome-logo,
-.welcomePage .getting-started,
-.welcomePage .quick-start,
-.welcomePage .welcome-page-content {
-  display: none !important;
-}
-
-.monaco-editor .selected-text {
-  background-color: #333333 !important;
-}
-.monaco-editor .view-overlays .whitespace {
-  background-color: rgba(255, 255, 255, 0.15) !important;
 }
